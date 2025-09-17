@@ -1,6 +1,7 @@
 name: Build Kernel - Android 15
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "next" ]
     paths:
